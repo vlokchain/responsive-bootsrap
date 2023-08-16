@@ -1,0 +1,37 @@
+/* Open Sans = Primary font choice | sans-serif = Fallback font choice if browser cannot load primary font */
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Same concept as above except Lobster and Cursive are both nearly identical fonts hence why if either one is removed the font will not change */
+h1, h2, h3 {
+    font-family: "Lobster", cursive;
+}
+
+h2 {
+    color: #3046c5;
+}
+
+header h2 {
+    color: #CEC8FF;
+}
+
+/* Sets background footer to a linear gradient with 20px top & bottom and 0px left & right */
+footer {
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0;
+}
+
+/* Targets .jumbotron classes and sets the element padding to 30px on all sides with a linear gradient */
+.jumbotron {
+    padding: 30px;
+    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    color: white
+}
+
+/* Targets all elements with the class "row-content" */
+.row-content {                       /* Targets all elements with the class "row-content" */
+    padding: 50px 0;                 /* Sets element padding to 50px top & bottom and 0px left & right */
+    border-bottom: 1px ridge;        /* Adds bottom border with a thickness of 1px and a style of ridge that gives 3D effect */
+    min-height: 200px;               /* Ensures elements have a min height of 200px */
+}

@@ -13,57 +13,91 @@
     <!-- A link to the Bootstrap CSS framework stylesheet to provide styles for the webpage-->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
 
-    <title>Mobi Matrix </title>
+    <!-- Additional CSS | Must be placed after Bootstrap CSS above -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Mobi Matrix</title>
 </head>
 
 <!-- BODY SECTION -->
 <body>
     <!-- Main title and subtitle for the website -->
-    <header>
-        <div>
-            <h1>Mobi Matrix</h1>
-            <h2>An organized, structured, and tech-savvy system for managing smartphone repairs</h2>
+    <!-- BOOTSTRAP CONTAINER 1 | START -->
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Nucamp</h1>
+                    <h2>a better way to camp</h2>
+                </div>
+            </div>
         </div>
     </header>
+    <!-- BOOTSTRAP CONTAINER 1 | END -->
 
-        <div>
-            <h2>Discover & Repair</h2>
-            <h3>MobiMatrix Solutions</h3>
-            <p>Explore our comprehensive database of mobile repair components and share your feedback!</p>
-        </div>
-        <div>
-            <h2>Featured Repairs</h2>
-            <h3>LCD Screen Replacement</h3>
-            <p>With our structured approach, replacing screens on popular Galaxy models has never been easier. Dive into the MobiMatrix method.</p>
-        </div>
-        <div>
-            <h2>Our Tech Partners</h2>
-            <h3>Matrix Gadgets</h3>
-            <p>Matrix Gadgets provides the tools and parts you need, ensuring seamless integration with MobiMatrix.</p>
+    <!-- BOOTSTRAP CONTAINER 2 | START -->
+    <div class="container">
+        <div class="row row-content align-items-center">
+            <div class="col-sm-4 order-sm-last col-md-3"> 
+                <h2 class="text-sm-right">Discover & Review</h2>
+            </div>
+            <div class="col">
+                <h3>Our Campsites</h3>
+                <p>Explore our growing database of curated campsites and leave your own reviews!</p>
+            </div>
         </div>
 
-        <footer>
-            <div>
-                <h5>Links</h5>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Sites</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+        <div class="row row-content align-items-center">
+            <div class="col-sm-4 col-md-3">
+                <h2>Featured Campsites</h2>
             </div>
-            <div>
-                <h5>Social</h5>
-                <a href="http://google.com/">Instagram</a>
-                <a href="http://google.com/">Facebook</a>
-                <a href="http://google.com/">Twitter</a>
-                <a href="http://google.com/">YouTube</a>
+            <div class="col">
+                <h3>React Lake Campground</h3>
+                <p>Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
             </div>
-            <div>
-                Tel: 212-111-0134<br />
-                Email: support@cpocell.com
+        </div>
+
+        <div class="row row-content align-items-center">
+            <div class="col-sm-4 order-sm-last col-md-3">
+                <h2 class="text-sm-right">Our Community Partners</h2>
             </div>
-        </footer>
+            <div class="col">
+                <h3>Bootstrap Outfitters</h3>
+                <p>Bootstrap Outfitters supplies you with the gear you need at prices you can't beat.</p>
+            </div>
+        </div>
+    </div>
+    <!-- BOOTSTRAP CONTAINER 2 | END -->
+
+    <!-- BOOTSTRAP CONTAINER 3 | START -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Sites</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5 text-center">
+                    <h5>Social</h5>
+                    <a href="http://instagram.com/">Instagram</a>
+                    <a href="http://facebook.com/">Facebook</a>
+                    <a href="http://twitter.com/">Twitter</a>
+                    <a href="http://youtube.com/">YouTube</a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    Tel: 1-206-555-1234<br />
+                    Email: campsites@nucamp.co
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- BOOTSTRAP CONTAINER 3 | END -->
 
         <!--  jQuery: Slim version of the jQuery library -->
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
