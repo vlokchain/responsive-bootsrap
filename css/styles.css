@@ -24,6 +24,7 @@ footer {
 
 /* Targets .jumbotron classes and sets the element padding to 30px on all sides with a linear gradient */
 .jumbotron {
+    margin: 0;
     padding: 30px;
     background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
     color: white
@@ -34,4 +35,8 @@ footer {
     padding: 50px 0;                 /* Sets element padding to 50px top & bottom and 0px left & right */
     border-bottom: 1px ridge;        /* Adds bottom border with a thickness of 1px and a style of ridge that gives 3D effect */
     min-height: 200px;               /* Ensures elements have a min height of 200px */
+}
+
+.navbar {
+    background-color: #901CAD;
 }
